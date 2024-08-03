@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2C21F2702C58044300FBA459 /* FlappyBirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F26F2C58044300FBA459 /* FlappyBirdApp.swift */; };
-		2C21F2722C58044300FBA459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F2712C58044300FBA459 /* ContentView.swift */; };
+		2C21F2722C58044300FBA459 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F2712C58044300FBA459 /* GameView.swift */; };
 		2C21F2742C58044400FBA459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21F2732C58044400FBA459 /* Assets.xcassets */; };
 		2C21F2772C58044400FBA459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C21F2762C58044400FBA459 /* Preview Assets.xcassets */; };
+		2C21F27E2C58061F00FBA459 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F27D2C58061F00FBA459 /* BirdView.swift */; };
+		2C21F2802C5808B500FBA459 /* PipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F27F2C5808B500FBA459 /* PipesView.swift */; };
+		2C21F2822C580B8800FBA459 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F2812C580B8800FBA459 /* ResultView.swift */; };
+		2C21F2862C580E8F00FBA459 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21F2852C580E8F00FBA459 /* GameSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C21F26C2C58044300FBA459 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C21F26F2C58044300FBA459 /* FlappyBirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdApp.swift; sourceTree = "<group>"; };
-		2C21F2712C58044300FBA459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C21F2712C58044300FBA459 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		2C21F2732C58044400FBA459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C21F2762C58044400FBA459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C21F27D2C58061F00FBA459 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		2C21F27F2C5808B500FBA459 /* PipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipesView.swift; sourceTree = "<group>"; };
+		2C21F2812C580B8800FBA459 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		2C21F2852C580E8F00FBA459 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				2C21F26F2C58044300FBA459 /* FlappyBirdApp.swift */,
-				2C21F2712C58044300FBA459 /* ContentView.swift */,
+				2C21F2712C58044300FBA459 /* GameView.swift */,
+				2C21F27D2C58061F00FBA459 /* BirdView.swift */,
+				2C21F27F2C5808B500FBA459 /* PipesView.swift */,
+				2C21F2812C580B8800FBA459 /* ResultView.swift */,
+				2C21F2852C580E8F00FBA459 /* GameSettings.swift */,
 				2C21F2732C58044400FBA459 /* Assets.xcassets */,
 				2C21F2752C58044400FBA459 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C21F2722C58044300FBA459 /* ContentView.swift in Sources */,
+				2C21F27E2C58061F00FBA459 /* BirdView.swift in Sources */,
+				2C21F2722C58044300FBA459 /* GameView.swift in Sources */,
+				2C21F2862C580E8F00FBA459 /* GameSettings.swift in Sources */,
+				2C21F2822C580B8800FBA459 /* ResultView.swift in Sources */,
+				2C21F2802C5808B500FBA459 /* PipesView.swift in Sources */,
 				2C21F2702C58044300FBA459 /* FlappyBirdApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
