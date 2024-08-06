@@ -18,7 +18,6 @@ struct PipesView: View {
             VStack {
                 Image(.flappeBirdPipe)
                     .resizable()
-                    .scaledToFit()
                     .rotationEffect(.degrees(180))
                     .frame(width: pipeWith, height: topPipeHeight)
                 

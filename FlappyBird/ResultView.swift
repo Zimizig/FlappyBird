@@ -18,7 +18,7 @@ struct ResultView: View {
             Text("Game over")
                 .font(.largeTitle)
                 .padding()
-            Text("Score: ")
+            Text("Score: \(score)")
                 .font(.title)
             Text("Best: \(highScore)")
                 .padding()
